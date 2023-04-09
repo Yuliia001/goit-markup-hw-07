@@ -1,0 +1,291 @@
+@media screen and (min-width: 428px) {
+    .container {
+        width: 426px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 766px;
+    }
+    .menu-open-btn{
+        display: none;
+    }
+    .header{
+        padding-bottom: 24px;
+    }
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+    .logo{
+        margin-right: 120px;
+    }
+    .nav-link {
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--dark);
+        transition: color var(--transition);
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--presses-state);
+    }
+    .current {
+        color: var(--presses-state);
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .current::after {
+        content: '';
+        width: 100%;
+        height: 4px;
+        background: var(--presses-state);
+        border-radius: 2px;
+        position: absolute;
+        display: block;
+        top: 55px;
+    }
+    .header-address {
+        display: flex;
+        font-style: normal;
+        margin-left: auto;
+    }
+    .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .address-link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        color: inherit;
+        transition: color var(--transition);
+    }
+    .address-link:hover,
+    .address-link:focus {
+        color: var(--presses-state);
+    }
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url('../images/hero-bg-tab.jpg');
+        }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)),
+            url('../images/hero-bg-tab-2x.jpg');
+    }
+}
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+}
+    .hero-btn{
+        margin-top: 36px;
+    }
+
+/* -------------------FUTURE PROMO---------------*/
+    .promo-list{
+        flex-direction: row;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .promo-item {
+        flex-basis: calc((100% - 24px)/ 2);
+}
+/* --------------------OUR TEAM---------------------- */
+    .team > .team-container {
+        width: 582px;
+    }
+    .team-list{
+        flex-direction: row;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+    .team-item {
+        flex-basis: calc((100% - 24px) / 2);
+} 
+/* --------------------CUSTOMERS---------------------- */
+    .customers > .customers-container{
+        width: 582px;
+    }
+    .customers-list{
+        column-gap: 24px;
+    }
+    .customers-item{
+        width: 168px;
+        height: 88px;
+        flex-basis: calc((100% - 48px) / 3);
+    }
+/* --------------------FOOTER---------------------- */
+    .footer > .footer-container{
+        width: 582px;
+    }
+    .footer-container{
+        text-align: start;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 72px 24px;
+    }
+    .subscribe-form{
+        flex-wrap: nowrap;
+        justify-content: unset;
+        gap: 24px;
+    }    
+    .subscribe-input{
+        width: 264px;
+    }
+    .modal{
+        width: 408px;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
+    .logo{
+        margin-right: 76px;
+    }
+    .address-list {
+        flex-direction: unset;
+        gap: 40px;
+    }
+    .address-link {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .current::after {
+        top: 43px;
+    }
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url('../images/hero-bg.jpg');
+    }
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url('../images/hero-bg-2x.jpg');
+        }
+    }
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .hero-btn {
+        margin-top: 48px;
+    }
+/* -------------------FUTURE PROMO---------------*/
+    .promo {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .promo-item {
+        flex-basis: calc((100% - 72px)/ 4);
+    }
+    .promo-icon {
+        width: 64px;
+        height: 64px;
+    }    
+    .promo-future {
+        height: 112px;
+        background-color: var(--light);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .promo-second-title{
+        font-weight: 500;
+         font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--dark);
+        text-align: left;
+    }
+/* --------------------WETODO---------------------- */
+    .wetodo {
+        padding-bottom: 120px;
+    }
+    .wetodo-title {
+        margin-bottom: 72px;
+    }
+    .wetodo-list {
+        display: flex;
+        gap: var(--gap);
+    }
+    .wetodo-item {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+        /* --------------------OUR TEAM---------------------- */
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .team>.team-container {
+        width: 1158px;
+    }
+    .team-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+/* --------------------CUSTOMERS---------------------- */
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .customers > .customers-container {
+        width: 1158px;
+    }
+    .customers-item {
+        flex-basis: calc((100% - 120px) / 6);
+    }
+        /* --------------------FOOTER---------------------- */
+    .footer > .footer-container {
+        width: 1158px;
+    }
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+    .footer-container{
+        flex-wrap: nowrap;
+        gap: 0;
+        
+    }
+    .footer-text{
+        width: 264px;
+    }
+    .social-media {margin-left: 120px;
+    }
+    .subscribe {
+        margin-left: 80px;
+    }
+
+    
+    
+       
+
+}
