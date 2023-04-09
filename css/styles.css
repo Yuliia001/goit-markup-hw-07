@@ -123,6 +123,9 @@ body{
     justify-content: space-between;
     overflow: auto;
 }
+.is-hidden .mob-menu {
+    transform: translate(-50%, -50%) scale(0);
+}
 .menu-close {
     position: relative;
     background-color: var(--accent);
@@ -135,11 +138,6 @@ body{
     margin-left: auto;
     margin-bottom: 32px;
     
-}
-.is-open{
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
 }
 .close-mob{
     position: absolute;
