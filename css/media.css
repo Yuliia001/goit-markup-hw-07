@@ -13,6 +13,9 @@
     .container {
         width: 766px;
     }
+    .mob-menu{
+        display: none;
+    }
     .menu-open-btn{
         display: none;
     }
