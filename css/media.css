@@ -2,6 +2,12 @@
     .container {
         width: 426px;
     }
+    .mob-tel-link{
+    font-size: 36px;
+    }
+    .mob-social-list{
+    gap: 56px;
+    }
 }
 @media screen and (min-width: 768px) {
     .container {
@@ -11,7 +17,8 @@
         display: none;
     }
     .header{
-        padding-bottom: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     .header-nav {
         display: flex;
@@ -53,7 +60,7 @@
         border-radius: 2px;
         position: absolute;
         display: block;
-        top: 55px;
+        top: 43px;
     }
     .header-address {
         display: flex;
@@ -66,6 +73,7 @@
         gap: 12px;
     }
     .address-link {
+        display: block;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
@@ -109,6 +117,9 @@
     .promo-item {
         flex-basis: calc((100% - 24px)/ 2);
 }
+    .promo-second-title{
+        text-align: start;
+    }
 /* --------------------OUR TEAM---------------------- */
     .team > .team-container {
         width: 582px;
@@ -173,7 +184,8 @@
         line-height: 1.5;
     }
     .current::after {
-        top: 43px;
+        
+        top: 35px;
     }
     .hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
