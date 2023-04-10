@@ -273,7 +273,7 @@
     <!--Footer-->
     <footer class="footer">
       <div class="container footer-container">
-        <div>
+        <div class="footer-logo">
           <a class="logo-footer link" href="./index.html"
             >Web<span class="logo-footer-color">Studio</span></a
           >
@@ -318,22 +318,19 @@
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <div class="subscribe-field">
-              <label for="user-name"></label>
-              <input
-                type="email"
-                class="subscribe-input"
-                name="subscribe-email"
-                id="subscribe-email"
-                placeholder="E-mail"
-              />
-              <div class="subscribe-wrap">
-                <button type="submit" class="subscribe-btn">Subscribe</button>
-                <svg class="subscribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-subscribe"></use>
-                </svg>
-              </div>
-            </div>
+            <input
+              aria-label="subscribe-email"
+              type="email"
+              class="subscribe-input"
+              name="subscribe-email"
+              id="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe<svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>

@@ -55,22 +55,25 @@
             </li>
           </ul>
         </address>
-        <button type="button"  class="menu-open-btn" data-menu-open>
-           <svg class="open-menu" width="32" height="22">
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="open-menu" width="32" height="22">
             <use href="./images/icons.svg#icon-menu-open-btn"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu container is-hidden" data-menu>
-        <div>
-          <button type="button"  class="menu-close" data-menu-close>
-            <svg class="close-mob" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
-          </button>
-          <ul class="nav-mob-menu list">
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container">
+          <div>
+            <button type="button" class="menu-close" data-menu-close>
+              <svg class="close-mob" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+            <ul class="nav-mob-menu list">
               <li class="mob-item">
-                <a class="link mob-link current-mob" href="./index.html">Studio</a>
+                <a class="link mob-link current-mob" href="./index.html"
+                  >Studio</a
+                >
               </li>
               <li class="mob-item">
                 <a class="mob-link link" href="./portfolio.html">Portfolio</a>
@@ -78,22 +81,26 @@
               <li class="mob-item">
                 <a class="mob-link link" href="">Contacts</a>
               </li>
-          </ul>
-        </div>
-        <div>
-          <address class="mob-header-address">
-            <ul class="mob-address-list list">
-              <li class="mob-adress-item">
-                <a class="mob-tel-link link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a>
-              </li>
-              <li class="mob-adress-item">
-                <a class="mob-email-link link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a>
-              </li>
             </ul>
-          </address>
-          <ul class="mob-social-list list">
+          </div>
+          <div>
+            <address class="mob-header-address">
+              <ul class="mob-address-list list">
+                <li class="mob-adress-item">
+                  <a class="mob-tel-link link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-adress-item">
+                  <a
+                    class="mob-email-link link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="mob-social-list list">
               <li class="mob-social-item">
                 <a href="" class="mob-social-link link">
                   <svg class="mob-social-icon" width="24" height="24">
@@ -122,7 +129,8 @@
                   </svg>
                 </a>
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -131,7 +139,9 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" data-modal-open type="button">Order Service</button>
+          <button class="hero-btn" data-modal-open type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <!--Future Promo-->
@@ -194,29 +204,26 @@
       <section class="wetodo">
         <div class="container">
           <h2 class="wetodo-title title">What are we doing</h2>
-            <ul class="wetodo-list list">
-              <li class="wetodo-item">
-                <img
-                  src="./images/computer.jpg"
-                  alt="computer overveiw"
-                  width="360"
-                />
-              </li>
-              <li class="wetodo-item">
-                <img 
-                  src="./images/chats.jpg" 
-                  alt="your chats" 
-                  width="360" 
-                />
-              </li>
-              <li class="wetodo-item">
-                <img
-                  src="./images/places.jpg"
-                  alt="inspiring places"
-                  width="360"
-                />
-              </li>
-            </ul>
+          <ul class="wetodo-list list">
+            <li class="wetodo-item">
+              <img
+                src="./images/computer.jpg"
+                alt="computer overveiw"
+                width="360"
+              />
+            </li>
+            <li class="wetodo-item">
+              <img src="./images/chats.jpg" alt="your chats" width="360" />
+            </li>
+            <li class="wetodo-item">
+              <img
+                src="./images/places.jpg"
+                alt="inspiring places"
+                width="360"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Our Team-->
       <section class="team">
@@ -225,7 +232,10 @@
           <ul class="team-list list">
             <li class="team-item">
               <img
-                srcset="./images/teamcard1-2x.jpg.jpg 1x, ./images/teamcard1-2x.jpg 2x"
+                srcset="
+                  ./images/teamcard1-2x.jpg 1x,
+                  ./images/teamcard1-2x.jpg 2x
+                "
                 src="./images/teamcard1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -264,8 +274,12 @@
               </ul>
             </li>
             <li class="team-item">
-              <img srcset="./images/teamcard2.jpg 1x, ./images/teamcard2-2x.jpg 2x"
-              src="./images/teamcard2.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/teamcard2.jpg 1x, ./images/teamcard2-2x.jpg 2x"
+                src="./images/teamcard2.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <h3 class="team-second-title">Tom Ford</h3>
               <p class="team-text text">Frontend Developer</p>
               <ul class="team-social-list list">
@@ -301,7 +315,7 @@
             </li>
             <li class="team-item">
               <img
-              srcset="./images/teamcard3.jpg 1x, ./images/teamcard3-2x.jpg 2x"
+                srcset="./images/teamcard3.jpg 1x, ./images/teamcard3-2x.jpg 2x"
                 src="./images/teamcard3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -341,7 +355,7 @@
             </li>
             <li class="team-item">
               <img
-              srcset="./images/teamcard4.jpg 1x, ./images/teamcard4-2x.jpg 2x"
+                srcset="./images/teamcard4.jpg 1x, ./images/teamcard4-2x.jpg 2x"
                 src="./images/teamcard4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -481,20 +495,22 @@
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-              <input 
-                aria-label="subscribe-email"
-                type="email" 
-                class="subscribe-input"
-                name="subscribe-email"
-                id="subscribe-email"
-                placeholder="E-mail">
-              <button type="submit" class="subscribe-btn">Subscribe<svg class="subscribe-icon" width="24" height="24">
+            <input
+              aria-label="subscribe-email"
+              type="email"
+              class="subscribe-input"
+              name="subscribe-email"
+              id="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe<svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
-                </svg></button>
-          </form>          
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
-      
     </footer>
     <!--Modal-window-->
     <div class="backdrop is-hidden" data-modal>

@@ -8,6 +8,8 @@
     .mob-social-list{
     gap: 56px;
     }
+    .modal {
+        width: 392px;
 }
 @media screen and (min-width: 768px) {
     .container {
@@ -175,6 +177,10 @@
     .container {
         width: 1158px;
     }
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
     .logo{
         margin-right: 76px;
     }
@@ -186,10 +192,7 @@
         font-size: 16px;
         line-height: 1.5;
     }
-    .current::after {
-        
-        top: 35px;
-    }
+   
     .hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
@@ -240,8 +243,12 @@
         color: var(--dark);
         text-align: left;
     }
+        .promo-text {
+            font-weight: 400;
+        }
 /* --------------------WETODO---------------------- */
     .wetodo {
+        display: block;
         padding-bottom: 120px;
     }
     .wetodo-title {
