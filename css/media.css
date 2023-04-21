@@ -11,6 +11,7 @@
     .modal {
         width: 392px;
 }
+}
 @media screen and (min-width: 768px) {
     .container {
         width: 766px;
